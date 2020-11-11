@@ -1,0 +1,23 @@
+version: "2.4"
+services: 
+    api:
+        build: 
+            context: .
+            target: gympair_api
+        container_name: gympair_api
+        ports: 
+            - "9090:9090"
+        links:
+            - mysql:gympair_mysql
+    mysql:
+        build:
+            context: .
+            target: gympair_mysql
+        container_name: gympair_mysql
+        ports: 
+            - "3306:3306"
+        environment: 
+            - MYSQL_DATABASE=ichat
+            - MYSQL_ROOT_PASSWORD=123456
+            - MYSQL_USER=henry
+            - MYSQL_PASSWORD=123456
