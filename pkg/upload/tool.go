@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Henry19910227/gym-pair/utils"
+	"github.com/Henry19910227/gympair-user-service/utils"
 )
 
 // GPUploadTool ...

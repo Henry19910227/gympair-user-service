@@ -3,8 +3,8 @@ package service
 import (
 	"mime/multipart"
 
-	"github.com/Henry19910227/gym-pair/internal/model"
-	"github.com/Henry19910227/gym-pair/internal/validator"
+	"github.com/Henry19910227/gympair-user-service/internal/model"
+	"github.com/Henry19910227/gympair-user-service/internal/validator"
 )
 
 // LoginService ...

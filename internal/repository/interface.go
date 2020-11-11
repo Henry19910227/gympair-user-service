@@ -1,6 +1,6 @@
 package repository
 
-import "github.com/Henry19910227/gym-pair/internal/model"
+import "github.com/Henry19910227/gympair-user-service/internal/model"
 
 // UserRepository ...
 type UserRepository interface {

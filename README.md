@@ -1,2 +1,2 @@
-# gym-pair
+# gympair-user-service
 side project

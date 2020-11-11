@@ -1,7 +1,7 @@
 package global
 
 import (
-	"github.com/Henry19910227/gym-pair/pkg/logger"
+	"github.com/Henry19910227/gympair-user-service/pkg/logger"
 )
 
 var (

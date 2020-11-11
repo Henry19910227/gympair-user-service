@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/Henry19910227/gym-pair/pkg/jwt"
+	"github.com/Henry19910227/gympair-user-service/pkg/jwt"
 
 	"github.com/gin-gonic/gin"
 )

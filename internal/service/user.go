@@ -5,10 +5,10 @@ import (
 	"mime/multipart"
 	"path"
 
-	"github.com/Henry19910227/gym-pair/internal/model"
-	"github.com/Henry19910227/gym-pair/internal/repository"
-	"github.com/Henry19910227/gym-pair/internal/validator"
-	"github.com/Henry19910227/gym-pair/pkg/upload"
+	"github.com/Henry19910227/gympair-user-service/internal/model"
+	"github.com/Henry19910227/gympair-user-service/internal/repository"
+	"github.com/Henry19910227/gympair-user-service/internal/validator"
+	"github.com/Henry19910227/gympair-user-service/pkg/upload"
 )
 
 type userService struct {

@@ -3,9 +3,9 @@ package controller
 import (
 	"net/http"
 
-	"github.com/Henry19910227/gym-pair/internal/service"
-	"github.com/Henry19910227/gym-pair/internal/validator"
-	"github.com/Henry19910227/gym-pair/pkg/jwt"
+	"github.com/Henry19910227/gympair-user-service/internal/service"
+	"github.com/Henry19910227/gympair-user-service/internal/validator"
+	"github.com/Henry19910227/gympair-user-service/pkg/jwt"
 	"github.com/gin-gonic/gin"
 )
 

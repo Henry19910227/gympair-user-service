@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/Henry19910227/gym-pair/internal/model"
-	"github.com/Henry19910227/gym-pair/internal/repository"
+	"github.com/Henry19910227/gympair-user-service/internal/model"
+	"github.com/Henry19910227/gympair-user-service/internal/repository"
 )
 
 type loginService struct {

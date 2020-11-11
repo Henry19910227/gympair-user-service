@@ -1,6 +1,6 @@
 FROM golang AS gympair_api
-WORKDIR /GYM-PAIR
-COPY . /GYM-PAIR
+WORKDIR /gympair-user-service
+COPY . /gympair-user-service
 RUN go build main.go 
 EXPOSE 9090
 ENTRYPOINT ./main -m release
