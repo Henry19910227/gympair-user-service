@@ -27,7 +27,7 @@ Database:
     UserName: root
     Password: 123456
   Release:
-    Host: gympair_mysql:3306
+    Host: gympair-user-mysql:3306
     DBName: ichat
     UserName: root
     Password: 123456
